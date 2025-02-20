@@ -1,5 +1,13 @@
 package edu.uea.dsw.api_pagamentos.model;
 
-public class Categoria {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Categoria {
+    private Long codigo;
+    private String nome;
 }
